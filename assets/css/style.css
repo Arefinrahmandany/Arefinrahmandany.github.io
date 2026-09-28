@@ -148,6 +148,7 @@
     }
 
     .btn {
+      color: var(--accent);
       display: inline-flex;
       padding: 12px 20px;
       border-radius: 10px;
@@ -205,6 +206,7 @@
     }
 
     .card h3 {
+      color: var(--accent);
       margin: 4px 0 10px;
       font-size: 1.25rem
     }
@@ -275,4 +277,3 @@
     }
 
     @media(max-width:760px) { .navlinks { gap:14px } .navlinks a:first-child { display:none } .hero { padding:80px 0 } .grid { grid-template-columns:1fr } section { padding:55px 0 } } @media(max-width:430px) { .navlinks { font-size:.8rem; gap:10px } .wrap { padding:0 18px } .contact { padding:23px } } @media(prefers-reduced-motion:reduce) { html { scroll-behavior:auto } .btn { transition:none } }
-  
